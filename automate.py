@@ -80,5 +80,5 @@ security= Automate_networkCommands(ip_address,username, password)
 security.execute_commands_on_remoteServer(commands)
     
 
-database= Automate_networkCommands()
+database= Automate_networkCommands(ip_address,username, password)
 database.execute_commands_on_remoteServer(commands1)
